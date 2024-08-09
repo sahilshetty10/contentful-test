@@ -5,8 +5,6 @@ import Blog from "../components/blog";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home(props: { posts: any }) {
-  console.log(props.posts);
-  console.log(props.posts[0].image.fields.file.url);
   return (
     <main
       className={`h-screen w-screen flex justify-center items-center flex-col gap-8 ${inter.className}`}
